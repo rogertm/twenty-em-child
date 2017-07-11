@@ -1,0 +1,5 @@
+#Ignore files
+cache
+cache/*.*
+t-em-child.sublime-project
+t-em-child.sublime-workspace
