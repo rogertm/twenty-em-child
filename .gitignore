@@ -1,4 +1,6 @@
 #Ignore files
+.sass-cache
+.sass-cache/*.*
 cache
 cache/*.*
 t-em-child.sublime-project
