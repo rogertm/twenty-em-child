@@ -3,7 +3,5 @@
 //
 // Imports
 //
-@import "init";
-@import "../../twenty-em/css/theme";
-// Child Theme components
-@import "variables";
+@import "custom";
+@import "../../twenty-em/scss/theme";
