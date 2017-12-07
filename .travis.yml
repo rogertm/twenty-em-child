@@ -21,19 +21,19 @@ matrix:
     include:
         # Current $required_php_version for WordPress: 5.2.4
         # aliased to 5.2.17
-        - php: '5.2'
+        # - php: '5.2'
         # aliased to a recent 5.6.x version
-        - php: '5.6'
-          env: SNIFF=1
+        # - php: '5.6'
+        # env: SNIFF=1
         # aliased to a recent 7.0.x version
         - php: '7.0'
         # aliased to a recent 7.1.x version
         - php: '7.1'
         # aliased to a recent hhvm version
-        - php: 'hhvm'
+        # - php: 'hhvm'
 
-    allow_failures:
-        - php: 'hhvm'
+    # allow_failures:
+        # - php: 'hhvm'
 
 # Use this to prepare the system to install prerequisites or dependencies.
 # e.g. sudo apt-get update.
