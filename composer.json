@@ -1,0 +1,15 @@
+{
+	"name": "rogertm/twenty-em-child",
+	"description": "Twenty'em Child Theme",
+	"keywords": ["wordpress", "framework", "child-theme", "theme-framework", "theme-development", "wordpress-framework"],
+	"homepage": "https://github.com/themingisprose/twenty-em-child",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "RogerTM",
+			"email": "roger213tm@gmail.com",
+			"homepage": "https://themingisprose.com",
+			"role": "Developer"
+		}
+	]
+}
