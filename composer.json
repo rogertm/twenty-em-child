@@ -4,6 +4,12 @@
 	"keywords": ["wordpress", "framework", "child-theme", "theme-framework", "theme-development", "wordpress-framework"],
 	"homepage": "https://github.com/themingisprose/twenty-em-child",
 	"license": "GPL-2.0-or-later",
+	"minimum-stability": "stable",
+	"type": "wordpress-theme",
+	"require": {
+		"php": ">=7.0",
+		"composer/installers": "^1.0"
+	},
 	"authors": [
 		{
 			"name": "RogerTM",
@@ -11,5 +17,11 @@
 			"homepage": "https://themingisprose.com",
 			"role": "Developer"
 		}
-	]
+	],
+	"support": {
+		"email": "roger213tm@gmail.com",
+		"issues": "https://github.com/rogertm/twenty-em-child/issues",
+		"source": "https://github.com/rogertm/twenty-em-child",
+		"docs": "https://themingisprose.com/twenty-em/documentacion/"
+	}
 }
