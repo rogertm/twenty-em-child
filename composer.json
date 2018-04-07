@@ -2,13 +2,14 @@
 	"name": "rogertm/twenty-em-child",
 	"description": "Twenty'em Child Theme",
 	"keywords": ["wordpress", "framework", "child-theme", "theme-framework", "theme-development", "wordpress-framework"],
-	"homepage": "https://github.com/themingisprose/twenty-em-child",
+	"homepage": "https://github.com/rogertm/twenty-em-child",
 	"license": "GPL-2.0-or-later",
 	"minimum-stability": "stable",
 	"type": "wordpress-theme",
 	"require": {
 		"php": ">=7.0",
-		"composer/installers": "^1.0"
+		"composer/installers": "^1.0",
+		"rogertm/twenty-em": "^1.0"
 	},
 	"authors": [
 		{

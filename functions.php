@@ -27,9 +27,8 @@ add_action( 'after_setup_theme', 't_em_child_setup' );
  * @since Twenty'em Child 1.0
  */
 function t_em_child_enqueue(){
-	global $t_em_theme_data;
-	wp_register_style( 'child-style', t_em_get_css( 'theme', T_EM_CHILD_THEME_DIR_PATH .'/css', T_EM_CHILD_THEME_DIR_URL .'/css' ), '', $t_em_theme_data['Version'], 'all' );
-	wp_enqueue_style( 'child-style' );
+	wp_register_style( 't_em_child-', t_em_get_css( 'theme', T_EM_CHILD_THEME_DIR_PATH .'/css', T_EM_CHILD_THEME_DIR_URL .'/css' ), '', t_em_theme( 'Version' ), 'all' );
+	wp_enqueue_style( 't_em_child-' );
 }
 add_action( 'wp_enqueue_scripts', 't_em_child_enqueue' );
 
