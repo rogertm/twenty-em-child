@@ -3,5 +3,11 @@
 .sass-cache/*.*
 cache
 cache/*.*
-t-em-child.sublime-project
-t-em-child.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+node_modules
+node_modules/*.*
+assets/dist
+assets/dist/*.*
+.env
+TODO

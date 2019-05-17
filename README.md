@@ -1,4 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/rogertm/twenty-em-child/version)](https://packagist.org/packages/rogertm/twenty-em-child)
+[
+![Latest Stable Version](https://poser.pugx.org/rogertm/twenty-em-child/version)](https://packagist.org/packages/rogertm/twenty-em-child)
 [![Latest Unstable Version](https://poser.pugx.org/rogertm/twenty-em-child/v/unstable)](//packagist.org/packages/rogertm/twenty-em-child)
 [![Total Downloads](https://poser.pugx.org/rogertm/twenty-em-child/downloads)](https://packagist.org/packages/rogertm/twenty-em-child)
 [![Build Status](https://travis-ci.org/rogertm/twenty-em-child.svg?branch=master)](https://travis-ci.org/rogertm/twenty-em-child)
@@ -33,6 +34,15 @@ $ composer require rogertm/twenty-em-child:^1.0
 ```
 Esto instalará automáticamente [Twenty'em Framework](https://github.com/rogertm/twenty-em)
 
+## Dependencias
+Twenty'em usa `npm` para manejar las dependencias. Una vez instalado este Child Theme debes ejecutar los siguientes comandos desde tu CLI:
+```bash
+$ cd /path/to/your/wordpress-site/wp-content/themes/twenty-em/
+$ npm install
+$ gulp
+$ gulp child
+```
+Lee el apartado de [Dependencias](https://github.com/rogertm/twenty-em#dependencias) y [Variables de entorno (.env)](https://github.com/rogertm/twenty-em#variables-de-entorno-env) en para más detalles.
 ## Uso
 Para usar este Child Theme debes seguir unos simples pasos antes de comenzar:
 * Buscar `'t_em_child'` (entre comillas simples) para encontrar el _Text Domain_ y reemplazarlo por `'your-text-domain'`.
